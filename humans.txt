@@ -2,15 +2,15 @@
 /* humanstxt.org */
 
 /* TEAM */
-  <your title>: <your name>
-  Site: 
-  Twitter: 
-  Location: 
+  nola-hact: kurtis rainbolt-greene, ben eckel
+  Site: http://krainboltgreene.github.com/
+  Twitter: krainboltgreene
+  Location: new orleans, LA
 
 /* THANKS */
-  Names (& URL): 
+  Names (& URL): Matz, Stasis, HAML, SASS, Coffee-Script, HTML5, CSS3, Javascript
 
 /* SITE */
   Standards: HTML5, CSS3
   Components: Modernizr, jQuery
-  Software:
+  Software: Ruby, Stasis, HAML, SASS, Coffee-Script, HTML5, CSS3, Javascript

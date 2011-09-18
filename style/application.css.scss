@@ -12,15 +12,31 @@
  * Date: @DATE
  */
 
-// CSS Reset
+// CSS Normalize
 @import "normalize.css.scss";
 
 // Core
 @import "preboot.css.scss";
 @import "scaffolding.css.scss";
 
+// Libraries
+@import "fancybox.css.scss";
+
 // Styled patterns and elements
 @import "typography.css.scss";
 @import "forms.css.scss";
 @import "tables.css.scss";
 @import "patterns.css.scss";
+
+// Styles
+
+header, footer {
+  @include center-block;
+  text-align: center;
+}
+
+section#traits {
+  height: 50px;
+  text-align: center;
+  @include sans-serif-font();
+}
