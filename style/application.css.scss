@@ -40,3 +40,8 @@ section#traits {
   text-align: center;
   @include sans-serif-font();
 }
+
+section#teams .avatars img {
+  @include center-block;
+  border: 1px solid $gray;
+}

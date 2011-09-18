@@ -254,7 +254,7 @@
 // ------------
 
 .hero-unit {
-  background-color: #f5f5f5;
+  background-color: $grayLighter;
   margin-top: 60px;
   margin-bottom: 30px;
   padding: 60px;
@@ -326,7 +326,7 @@ footer {
   // Primary Button Type
   &.primary {
     color:#fff;
-    @include btnColor($blue, $blueDark);
+    @include btnColor($baseColor, darken($red, 10));
   }
 
    // Transitions
