@@ -18,6 +18,8 @@ window.log = function(){
 
 // place any jQuery/helper plugins in here, instead of separate, slower script files.
 
+
+
 /*
  * FancyBox - jQuery Plugin
  * Simple and fancy lightbox alternative

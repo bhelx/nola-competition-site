@@ -31,7 +31,7 @@
     <!-- All JavaScript at the bottom, except for Modernizr / Respond.
     Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
     For optimal performance, use a custom Modernizr build: www.modernizr.com/download/ -->
-    <script src="script/library/modernizr.min.js"></script>
+    <script defer async src="script/library/modernizr.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -50,12 +50,13 @@
     <!-- JavaScript at the bottom for fast page loading -->
 
     <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script defer async src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="script/library/jquery.min.js"><\/script>')</script>
 
     <!-- scripts concatenated and minified via ant build script-->
-    <script defer src="script/plugins.js"></script>
-    <script defer src="script/script.js"></script>
+    <script defer async src="script/library/date.js"></script>
+    <script defer async src="script/plugins.js"></script>
+    <script defer async src="script/script.js"></script>
     <!-- end scripts-->
 
     <!-- Change UA-XXXXX-X to be your site's ID -->
@@ -69,7 +70,7 @@
     <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
     chromium.org/developers/how-tos/chrome-frame-getting-started -->
     <!--[if lt IE 7 ]>
-    <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+    <script defer async src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
     <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
     <![endif]-->
 
