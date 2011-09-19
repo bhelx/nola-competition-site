@@ -1,0 +1,132 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+
+    <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+    More info: h5bp.com/b/378 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>NOLA hACT!</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+
+    <!-- CSS: implied media=all -->
+    <!-- CSS concatenated and minified via ant build script-->
+    <link rel="stylesheet" href="/nola-contest-site/style/application.css">
+    <!-- end CSS-->
+
+    <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
+
+    <!-- All JavaScript at the bottom, except for Modernizr / Respond.
+    Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
+    For optimal performance, use a custom Modernizr build: www.modernizr.com/download/ -->
+    <script defer async src="/nola-contest-site/script/library/modernizr.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="hero-unit">
+        <div id='countdown'></div>
+<h1>hacker ACT!</h1>
+<p>
+  the new orleans hacker
+  <strong>A</strong>pplication
+  <strong>C</strong>on<strong>T</strong>est.
+</p>
+<p id='navigation'>
+  <a class='btn primary' href='/nola-contest-site/rules/'>
+    <strong>Rules</strong>
+  </a>
+  <a class='btn' href='/nola-contest-site/judges/'>
+    Judges
+  </a>
+  <a class='btn' href='/nola-contest-site/teams/'>
+    Teams
+  </a>
+  <a class='btn' href='/nola-contest-site/sponsers/'>
+    Sponsers
+  </a>
+  <a class='btn disabled' href='/nola-contest-site/projects/'>
+    Projects
+  </a>
+</p>
+
+      </header>
+      <div id="main" role="main" >
+        <h2>Sponsers</h2>
+<p>
+  Vinyl squid banksy cardigan, fixie helvetica dreamcatcher photo booth gluten-free raw denim echo park lo-fi. Cred yr fanny pack, beard mlkshk keytar lo-fi cardigan brooklyn salvia freegan. Sustainable raw denim american apparel cred, irony 3 wolf moon portland tofu etsy. Pitchfork organic biodiesel DIY brunch. Photo booth mixtape DIY salvia vinyl, wes anderson master cleanse messenger bag. American apparel fixie scenester hoodie PBR put a bird on it master cleanse, brooklyn banh mi portland trust fund. Cred gentrify twee hoodie sustainable dreamcatcher.
+</p>
+
+      </div>
+      <footer class="">
+        <p id='links'>
+  <a href='/nola-contest-sitenola-contest-site/about/'>About</a>
+  –
+  <a href='/nola-contest-sitenola-contest-site/terms/'>Terms</a>
+  –
+  <a href='/nola-contest-sitenola-contest-site/policy/'>Policy</a>
+  –
+  <a href='/nola-contest-site/us/'>Us</a>
+</p>
+<p id='badges'>
+  <a href='http://www.w3.org/html/logo/'>
+    <img alt='HTML5 Powered with CSS3 / Styling, Device Access, Performance &amp;amp; Integration, and Semantics' height='64' src='http://www.w3.org/html/logo/badge/html5-badge-h-css3-device-performance-semantics.png' title='HTML5 Powered with CSS3 / Styling, Device Access, Performance &amp;amp; Integration, and Semantics' width='229' />
+  </a>
+  <a href='mailto:kurtisrainboltgreene@gmail.com'>
+    <img alt='...' height='64' src='nola-contest-site/image/mail.png' title='...' width='64' />
+  </a>
+  <a href='http://nola.hackd.org/rss/'>
+    <img alt='...' height='64' src='nola-contest-site/image/rss.png' title='...' width='64' />
+  </a>
+  <a href='http://facebook.com/hacker-act-nola/'>
+    <img alt='...' height='64' src='nola-contest-site/image/facebook.png' title='...' width='64' />
+  </a>
+  <a href='http://twitter.com/hacker-act-nola/'>
+    <img alt='...' height='64' src='nola-contest-site/image/twitter.png' title='...' width='64' />
+  </a>
+</p>
+
+      </footer>
+    </div> <!--! end of #container -->
+
+
+    <!-- JavaScript at the bottom for fast page loading -->
+
+    <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+    <script defer async src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/nola-contest-site/script/library/jquery.min.js"><\/script>')</script>
+
+    <!-- scripts concatenated and minified via ant build script-->
+    <script defer async src="/nola-contest-site/script/library/date.js"></script>
+    <script defer async src="/nola-contest-site/script/plugins.js"></script>
+    <script defer async src="/nola-contest-site/script/script.js"></script>
+    <!-- end scripts-->
+
+    <!-- Change UA-XXXXX-X to be your site's ID -->
+    <script>
+    window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
+    Modernizr.load({
+    load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+    });
+    </script>
+
+    <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+    chromium.org/developers/how-tos/chrome-frame-getting-started -->
+    <!--[if lt IE 7 ]>
+    <script defer async src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+    <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+    <![endif]-->
+
+  </body>
+</html>
