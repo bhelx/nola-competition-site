@@ -1,0 +1,5 @@
+h1 headers: NewsCycle - http://www.google.com/webfonts/specimen/News+Cycle
+body: Helvetica
+sub-menu: Lucida Grande
+
+The other fonts we can touch up as the site gets constructed
