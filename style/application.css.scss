@@ -11,7 +11,7 @@
  *
  * Date: @DATE
  */
-
+/*
 // CSS Normalize
 @import "normalize.css.scss";
 
@@ -26,22 +26,10 @@
 @import "typography.css.scss";
 @import "forms.css.scss";
 @import "tables.css.scss";
-@import "patterns.css.scss";
+@import "patterns.css.scss";*/
 
 // Styles
 
-header, footer {
-  @include center-block;
-  text-align: center;
-}
-
-section#traits {
-  height: 50px;
-  text-align: center;
-  @include sans-serif-font();
-}
-
-section#teams .avatars img {
-  @include center-block;
-  border: 1px solid $gray;
+body {
+  background: url('image/background.png') repeat;
 }

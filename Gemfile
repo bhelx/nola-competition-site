@@ -1,6 +1,6 @@
 source :rubygems
 
-gem 'stasis'
+gem 'nanoc'
 gem 'haml'
 gem 'sass'
 gem 'coffee-script'
