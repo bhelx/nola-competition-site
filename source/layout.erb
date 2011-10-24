@@ -21,6 +21,7 @@
 
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
 
+  <link href='http://fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/style.css">
 
   <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
@@ -34,14 +35,14 @@
 <body>
 
   <div id="container">
-    <header>
-
+    <header class="row">
+      <%= partial 'header' %>
     </header>
-    <div id="main" role="main">
-
+    <div id="main" role="main" class="content container">
+      <%= yield %>
     </div>
     <footer>
-
+      <%= partial 'footer' %>
     </footer>
   </div>
 
