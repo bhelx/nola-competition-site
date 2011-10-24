@@ -1,5 +1,5 @@
 require 'rubygems'
-require 'middleman'
+# require 'middleman'
 
 # run Middleman.server
 require 'bundler'
