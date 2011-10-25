@@ -9,3 +9,4 @@ use Rack::TryStatic, :root => "build", :urls => %w[/], :try => ['.html', 'index.
 require "rack/contrib/static_cache"
 use Rack::StaticCache, :urls => ['/'], :root => 'build'
 
+run lambda { |env| [404, {'Content-Type'=>'text/html'}, File.new("./build/404.html")] }
